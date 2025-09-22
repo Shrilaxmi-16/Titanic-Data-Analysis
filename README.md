@@ -7,7 +7,7 @@ The analysis covers **data cleaning, exploratory data analysis (EDA), visualizat
 ---
 
 ## 📂 Dataset Information
-- **Source:** [Kaggle - Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic/data)  
+- **Source:** [Titanic Dataset](https://www.kaggle.com/datasets/yasserh/titanic-dataset)  
 - **Description:** Contains details of 891 passengers including:
   - Passenger ID, Name, Age, Gender
   - Ticket class, Cabin, Fare
