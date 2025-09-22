@@ -37,16 +37,16 @@ The dataset used is the Titanic passenger dataset, available from [Titanic Datas
 Visualizations help understand data distribution and feature relationships:
 
 - **Survival Distribution**  
-  ![Survival Distribution](images/survival_distribution.png)
+  ![Survival Distribution](images/age distribution.png)
 
 - **Survival by Gender**  
-  ![Survival by Gender](images/survival_by_gender.png)
+  ![Survival by Gender](images/survival by gender.png)
 
 - **Survival by Passenger Class**  
-  ![Survival by Class](images/survival_by_class.png)
+  ![Survival by Class](images/Pclass .png)
 
 - **Age Distribution of Passengers**  
-  ![Age Distribution](images/age_distribution.png)
+  ![Age Distribution](images/age by passengers.png)
 
 > Replace the paths above (`images/...`) with your actual image paths in the repository.
 
