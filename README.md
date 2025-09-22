@@ -100,10 +100,10 @@ Some insights discovered:
 (Add screenshots of your graphs here 👇)  
 
 
-## 🤖 Modeling 
-If ML models are included, mention:
-- Logistic Regression
-- Decision Tree
-- Random Forest
+## Machine learning Models
+- **Logistic Regression:** Predicts survival using a linear combination of features.  
+- **Decision Tree:** Classifies passengers based on feature splits like age, sex, and class.  
+- **Random Forest:** Ensemble model improving accuracy by combining multiple decision trees.  
+- **K-Nearest Neighbors (KNN):** Predicts survival based on the majority class of nearest passengers.  
 - Model performance (Accuracy, Precision, Recall, F1-score)
 
