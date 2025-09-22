@@ -10,6 +10,13 @@ This project focuses on analyzing and preprocessing the Titanic passenger datase
 - **Feature Engineering**: Create meaningful features (e.g., family size, title extraction) and select relevant attributes.
 - **Preparation for Modeling**: Split data into training and testing sets, ensuring clean, usable data for predictive modeling.
 
+## Technologies Used
+- **Python**
+- **Pandas** – Data manipulation and preprocessing
+- **NumPy** – Numerical computations
+- **Matplotlib & Seaborn** – Data visualization
+- **Jupyter Notebook** – Interactive coding environment
+
 ## 📂 Dataset
 The dataset used is the Titanic passenger dataset, available from [Titanic Dataset](https://www.kaggle.com/datasets/yasserh/titanic-dataset)). It contains information such as:
 
@@ -48,56 +55,6 @@ Visualizations help understand data distribution and feature relationships:
 - **Age Distribution of Passengers**  
   ![Age Distribution](images/4.png)
 
-## Technologies Used
-- **Python**
-- **Pandas** – Data manipulation and preprocessing
-- **NumPy** – Numerical computations
-- **Matplotlib & Seaborn** – Data visualization
-- **Jupyter Notebook** – Interactive coding environment
-
----
-
-## How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/titanic-data-analysis.git
-
-
-## 🎯 Objectives
-- Clean and preprocess Titanic dataset  
-- Handle missing values & categorical encoding  
-- Perform Exploratory Data Analysis (EDA)  
-- Visualize trends in survival by **gender, age, class, fare, embarkation**  
-- Build machine learning models to predict survival  
-
-
-## 🛠️ Technologies & Libraries Used
-- **Language:** Python 3  
-- **Libraries:**
-  - Data Handling → `pandas`, `numpy`
-  - Visualization → `matplotlib`, `seaborn`
-  - Machine Learning (optional) → `scikit-learn`
-
-## 🔄 Data Preprocessing
-Steps performed:
-1. Handling **missing values** (Age, Cabin, Embarked)  
-2. Encoding **categorical features** (Sex, Embarked)  
-3. Creating new **features** (Family Size, Title, etc.)  
-4. Scaling and normalizing numerical features  
-
-## 📊 Exploratory Data Analysis (EDA)
-Some insights discovered:
-- **Gender:** Women had a much higher survival rate than men.  
-- **Class:** Passengers in **1st class** survived more compared to 3rd class.  
-- **Age:** Children had a higher chance of survival than adults.  
-- **Embarkation Point:** Passengers from port "C" had higher survival rates.  
-
-### Example Visualizations
-- Bar plots of survival by gender and class  
-- Violin plots for age distribution across classes  
-- Heatmaps of feature correlations  
-
-(Add screenshots of your graphs here 👇)  
 
 
 ## Machine learning Models
@@ -107,3 +64,7 @@ Some insights discovered:
 - **K-Nearest Neighbors (KNN):** Predicts survival based on the majority class of nearest passengers.  
 - Model performance (Accuracy, Precision, Recall, F1-score)
 
+## How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/titanic-data-analysis.git
