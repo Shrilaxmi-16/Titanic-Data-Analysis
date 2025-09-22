@@ -48,10 +48,6 @@ Visualizations help understand data distribution and feature relationships:
 - **Age Distribution of Passengers**  
   ![Age Distribution](images/age by passengers.png)
 
-> Replace the paths above (`images/...`) with your actual image paths in the repository.
-
----
-
 ## Technologies Used
 - **Python**
 - **Pandas** – Data manipulation and preprocessing
