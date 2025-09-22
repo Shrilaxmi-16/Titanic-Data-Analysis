@@ -1,24 +1,7 @@
-# 🚢 Titanic Survival Data Analysis & Prediction
+# 🚢 Titanic Data Analysis and Preprocessing
 
 ## 📌 Project Overview
-This project explores the famous **Titanic dataset** to analyze passenger survival patterns and apply preprocessing, visualization, and machine learning techniques.  
-The analysis covers **data cleaning, exploratory data analysis (EDA), visualization, and survival prediction models**.
-
-
-## 📂 Dataset Information
-- **Source:** [Titanic Dataset](https://www.kaggle.com/datasets/yasserh/titanic-dataset)  
-- **Description:** Contains details of 891 passengers including:
-  - Passenger ID, Name, Age, Gender
-  - Ticket class, Cabin, Fare
-  - Embarkation point
-  - Survival status (0 = Did not survive, 1 = Survived)
-
-# Titanic Data Analysis and Preprocessing
-
-## Project Overview
 This project focuses on analyzing and preprocessing the Titanic passenger dataset to understand factors influencing survival and prepare the data for predictive modeling. It involves cleaning the dataset, performing exploratory data analysis (EDA), feature engineering, and transforming data to make it suitable for machine learning algorithms.
-
----
 
 ## Key Objectives
 - **Data Understanding**: Explore dataset structure, features, and target variable (`Survived`).
@@ -27,10 +10,8 @@ This project focuses on analyzing and preprocessing the Titanic passenger datase
 - **Feature Engineering**: Create meaningful features (e.g., family size, title extraction) and select relevant attributes.
 - **Preparation for Modeling**: Split data into training and testing sets, ensuring clean, usable data for predictive modeling.
 
----
-
-## Dataset
-The dataset used is the Titanic passenger dataset, available from [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic/data). It contains information such as:
+## 📂 Dataset
+The dataset used is the Titanic passenger dataset, available from [Titanic Dataset](https://www.kaggle.com/datasets/yasserh/titanic-dataset)). It contains information such as:
 
 - PassengerId
 - Survived (target variable)
@@ -45,16 +26,12 @@ The dataset used is the Titanic passenger dataset, available from [Kaggle Titani
 - Cabin
 - Embarked (Port of Embarkation)
 
----
-
 ## Data Preprocessing Steps
 1. Handle missing values (e.g., fill missing Age with median, drop missing Embarked).
 2. Encode categorical variables (Sex, Embarked) using label or one-hot encoding.
 3. Create new features (e.g., FamilySize = SibSp + Parch + 1, Title from Name).
 4. Drop irrelevant columns (e.g., Ticket, Cabin) or transform them as needed.
 5. Scale or normalize numerical features if required.
-
----
 
 ## Exploratory Data Analysis (EDA)
 Visualizations help understand data distribution and feature relationships:
