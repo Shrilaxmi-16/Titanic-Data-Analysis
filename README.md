@@ -4,7 +4,6 @@
 This project explores the famous **Titanic dataset** to analyze passenger survival patterns and apply preprocessing, visualization, and machine learning techniques.  
 The analysis covers **data cleaning, exploratory data analysis (EDA), visualization, and survival prediction models**.
 
----
 
 ## 📂 Dataset Information
 - **Source:** [Titanic Dataset](https://www.kaggle.com/datasets/yasserh/titanic-dataset)  
@@ -14,7 +13,6 @@ The analysis covers **data cleaning, exploratory data analysis (EDA), visualizat
   - Embarkation point
   - Survival status (0 = Did not survive, 1 = Survived)
 
----
 
 ## 🎯 Objectives
 - Clean and preprocess Titanic dataset  
@@ -23,7 +21,6 @@ The analysis covers **data cleaning, exploratory data analysis (EDA), visualizat
 - Visualize trends in survival by **gender, age, class, fare, embarkation**  
 - Build machine learning models to predict survival  
 
----
 
 ## 🛠️ Technologies & Libraries Used
 - **Language:** Python 3  
@@ -32,16 +29,12 @@ The analysis covers **data cleaning, exploratory data analysis (EDA), visualizat
   - Visualization → `matplotlib`, `seaborn`
   - Machine Learning (optional) → `scikit-learn`
 
----
-
 ## 🔄 Data Preprocessing
 Steps performed:
 1. Handling **missing values** (Age, Cabin, Embarked)  
 2. Encoding **categorical features** (Sex, Embarked)  
 3. Creating new **features** (Family Size, Title, etc.)  
 4. Scaling and normalizing numerical features  
-
----
 
 ## 📊 Exploratory Data Analysis (EDA)
 Some insights discovered:
@@ -57,15 +50,11 @@ Some insights discovered:
 
 (Add screenshots of your graphs here 👇)  
 
----
 
-## 🤖 Modeling (Optional)
+## 🤖 Modeling 
 If ML models are included, mention:
 - Logistic Regression
 - Decision Tree
 - Random Forest
 - Model performance (Accuracy, Precision, Recall, F1-score)
 
----
-
-## 📂 Project Structure
