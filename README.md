@@ -24,7 +24,7 @@ The dataset used is the Titanic passenger dataset, available from [Titanic Datas
 - Survived (target variable)
 - Pclass (Passenger class)
 - Name
-- Sex
+- Gender
 - Age
 - SibSp (siblings/spouses aboard)
 - Parch (parents/children aboard)
